@@ -8,19 +8,38 @@ O bot acessa o link do jogo automaticamente, abrindo um browser do lado direito,
 
 ## Como Executar?
 
-Veja o passo a passo a seguir para sistemas Ubuntu ou derivados do Debian.
+Veja o passo a passo a seguir para sistemas Windows, Ubuntu ou derivados do Debian.
 
-### Baixar os arquivos do repositório
+### Windows
+
+#### Baixar os arquivos do repositório
+    > git clone https:/github.com/gbrcarvalho/Bot-Magic-Piano-Tiles.git
+    > cd .\Bot-Magic-Piano-Tiles
+
+#### Criar e ativar ambiente virtual
+    > python -m venv venv
+    > .\venv\Scripts\activate
+
+#### Instalar dependencias
+    > pip install -r requirements.txt
+
+#### Executar
+    > python pianotiles.py
+
+### Ubuntu ou derivados do Debian
+
+#### Baixar os arquivos do repositório
     $ git clone https:/github.com/gbrcarvalho/Bot-Magic-Piano-Tiles.git
     $ cd ./Bot-Magic-Piano-Tiles
 
-### Criar e ativar ambiente virtual
-    $ python -m venv venv
+#### Criar e ativar ambiente virtual
+    $ python3 -m venv venv
     $ source ./venv/bin/activate
 
-### Instalar dependencias
-    $ pip install < requirements.txt
+#### Instalar dependencias
+    $ pip3 install -r requirements.txt
 
-### Executar
-    $ python pianotiles.py
+#### Executar
+    $ chmod +x ./pianotiles.py
+    $ python3 pianotiles.py
 
