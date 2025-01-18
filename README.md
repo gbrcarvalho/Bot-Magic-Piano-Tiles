@@ -43,4 +43,4 @@ Veja o passo a passo a seguir para sistemas Windows, Ubuntu ou derivados do Debi
     $ chmod +x ./pianotiles.py
     $ python3 pianotiles.py
 
-**Para interromper a execução do bot é só pressionar enter.**
+**Para interromper a execução do bot é só pressionar esc.**
